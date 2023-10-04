@@ -1,0 +1,31 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 240px;
+    border-right: 1px solid rgba(88, 116, 129, 1);
+    padding-top: 42px;
+}
+
+.teamLogo {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-left: 12px;
+}
+
+/* .teamLogoWrapper {
+    width: 100%;
+} */
+
+.teamLogoIcon {
+    height: 48px;
+    width: 48px;
+
+}
+
+.teamName {
+    color: rgba(255, 255, 255, 1);
+    margin-left: 8px;
+    font-size: 22px;
+}

@@ -1,0 +1,62 @@
+.wrapper {
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 8px;
+}
+
+.buttonWrapper {
+    display: flex;
+    width: 100%;
+    transition: background-color 0.5s ease;
+    border-radius: 46px;
+    height: 40px;
+    align-items: center;
+}
+
+.buttonWrapper:not(:first-child) {
+    margin-top: 12px;
+}
+
+.insideWrapper {
+    display: flex;
+    align-items: center;
+    padding-left: 8px;
+}
+
+.teamLogoWrapper {
+    height: 24px;
+    width: 24px;
+}
+
+.teamLogoIcon {
+    height: 100%;
+    width: 100%;
+    fill: transparent;
+stroke:     rgba(132, 247, 216, 1);
+;
+}
+
+.text {
+    font-size: 14px;
+    color: rgba(132, 247, 216, 1);
+    margin-left: 8px;
+}
+
+.buttonWrapper:hover .text {
+    display: block;
+    font-size: 14px;
+    margin-left: 8px;
+    color: rgba(38, 44, 58, 1);
+}
+
+.buttonWrapper:hover .teamLogoIcon {
+    /*fill: rgba(38, 44, 58, 1);*/
+    stroke: rgba(38, 44, 58, 1)
+}
+
+.buttonWrapper:hover {
+    background-color: rgba(44, 229, 167, 1);
+}
